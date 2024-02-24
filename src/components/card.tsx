@@ -13,7 +13,7 @@ type CardProps = {
 
 const Card: FC<CardProps> = ({ infoCard }) => {
   return (
-    <div className=" flex h-5/6 w-11/12 max-w-card flex-col items-center justify-around  gap-4 rounded-xl bg-white font-red-hat-display  shadow-lg md:h-card">
+    <div className=" flex h-5/6 w-11/12 max-w-card flex-col items-center justify-between  gap-4 rounded-xl bg-white font-red-hat-display  shadow-lg md:h-card">
       <img
         src={infoCard.image}
         alt="illustration hero"
