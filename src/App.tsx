@@ -12,7 +12,10 @@ const INFO_CARD = {
 
 function App() {
   return (
-    <div className="flex size-full min-h-screen items-center justify-center bg-background  bg-mobile bg-auto-100 bg-no-repeat md:bg-desktop">
+    <div
+      className="flex size-full min-h-screen items-center justify-center bg-background  bg-mobile bg-auto-100 bg-no-repeat md:bg-desktop"
+      role="main"
+    >
       <Card infoCard={INFO_CARD} />
     </div>
   );

@@ -25,6 +25,9 @@ export default {
       maxWidth: {
         card: "450px",
       },
+      height: {
+        card: "697px",
+      },
       backgroundSize: {
         "auto-100": "100% auto",
       },
